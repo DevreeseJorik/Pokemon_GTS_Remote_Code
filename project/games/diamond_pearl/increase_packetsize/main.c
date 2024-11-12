@@ -9,7 +9,6 @@ void main(void) {
     );
     setPacketSizes();
     __asm__ volatile (
-        "mov r0, #0x1\n"
         "pop {r1-r7, pc}\n"
     );
 }
